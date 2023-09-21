@@ -44,6 +44,13 @@ export default {
     // https://go.nuxtjs.dev/axios
     "@nuxtjs/axios",
     "@nuxtjs/auth-next",
+    [
+      "nuxt-vuex-localstorage",
+      {
+        mode: "debug",
+        localStorage: ["todos"],
+      },
+    ],
   ],
 
   auth: {
