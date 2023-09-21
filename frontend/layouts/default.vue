@@ -73,11 +73,6 @@ export default {
                 },
                 {
                     icon: 'mdi-chart-bubble',
-                    title: 'Login',
-                    to: '/login'
-                },
-                {
-                    icon: 'mdi-chart-bubble',
                     title: 'todos',
                     to: '/todos'
                 }
